@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Secrets and config
+.env
+*.env
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Python temporary files
+*.log
+*.tmp
+*.temp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Package directories
+env/
+venv/
+.venv/
+
+# ElevenLabs / Groq config files
+secret_*.json
+
+# Temporary audio files
+*.mp3
