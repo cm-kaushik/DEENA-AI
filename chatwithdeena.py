@@ -389,7 +389,7 @@ with gr.Blocks(theme=gr.themes.Soft()) as app:
 
     
 
-    chatbot_ui = gr.Chatbot(label="Chat with Deena",avatar_images=[None,"c:\\Users\\Kaushik Babu CM\\deena logo.png"])
+    chatbot_ui = gr.Chatbot(label="Chat with Deena")
     with gr.Row():
         user_input = gr.Textbox(placeholder="Type a message to Deena and press Enter...", show_label=False)
         tools_dropdown = gr.Dropdown(["Select Tool", "SIP Calculator", "Lumpsum Calculator", "EMI Calculator", "Goal Planner", "FD Calculator","📊 Live Stocks & ETFs"], label="Tools", scale=1)
